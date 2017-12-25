@@ -1,0 +1,711 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DAO
+</name>
+</assembly>
+<members>
+<member name="M:DAO.BAOCAOCONGNODAO.FindBaoCaoCongNo(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find baocaocongno by thang and nam and maSach
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOCONGNODAO.InsertBaoCaoCongNo(DTO.BAOCAOCONGNODTO,System.String@)">
+ <summary>
+ Insert a new BaoCaoCongNo when a new customer is inserted
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOCONGNODAO.RemoveBaoCaoCongNos(System.String,System.String@)">
+ <summary>
+ Remove BaoCaoCongNos by customer ID
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOCONGNODAO.GetNewBaoCaoCongNoID(System.String@)">
+ <summary>
+ get new BaoCaoCongNo ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOCONGNODAO.CountBaoCaoCongNos(System.String@)">
+ <summary>
+ Count the number of BaoCaoCongNo in database
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOTONDAO.FindBaoCaoTon(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find baocaoton by thang and nam and maSach
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOTONDAO.InsertBaoCaoTon(DTO.BAOCAOTONDTO,System.String@)">
+ <summary>
+ Insert a new BaoCaoTon when a new book is inserted
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOTONDAO.RemoveBaoCaoTons(System.String,System.String@)">
+ <summary>
+ Remove BaoCaoTons by book ID
+ </summary>
+ <param name="maSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOTONDAO.GetNewBaoCaoTonID(System.String@)">
+ <summary>
+ get new BaoCaoTon ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOTONDAO.CountBaoCaoTons(System.String@)">
+ <summary>
+ Count the number of BaoCaoTon in database
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.BAOCAOTONDAO.FindAllBaoCaoTons(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find baocaotons by thang and nam
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETCONGNODAO.FindChiTietCongNo(System.String,System.String,System.String@)">
+ <summary>
+ Find chitietcongno by Mabaocaocongno and makhachhang
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETCONGNODAO.SearchAllUnRemovedChiTietCongNos(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find ChiTietCongNos by thang and nam
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETCONGNODAO.InsertChiTietCongNo(System.String,System.String,System.String@)">
+ <summary>
+ Insert a new ChiTietCongNo
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETCONGNODAO.UpdateChiTietCongNo(System.Int32,System.Int32,System.String,System.Decimal,System.String@)">
+ <summary>
+ Update BaoCaoCongNo
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETCONGNODAO.UpdateAllChiTietCongNosByNewMonth(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Update All BaoCaoCongNo if this month is a new month
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETCONGNODAO.GetNewChiTietCongNoID(System.String@)">
+ <summary>
+ get new ChiTietCongNo ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETPHIEUHOADONDAO.InsertChiTietPhieuHoaDon(DTO.CHITIETPHIEUHOADONDTO,System.String@)">
+ <summary>
+ Insert new ChiTietPhieuHoaDon into database
+ </summary>
+ <param name="chiTietPhieuHoaDon"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETPHIEUHOADONDAO.RemoveChiTietPhieuHDsByBookID(System.String,System.String@)">
+ <summary>
+ Remove ChiTietPhieuHoaDons by book ID
+ </summary>
+ <param name="maSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETPHIEUHOADONDAO.GetNewChiTietPhieuHoaDonID(System.String@)">
+ <summary>
+ Get new ChiTietPhieuHoaDon ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETPHIEUHOADONDAO.CountChiTietPhieuHoaDons(System.String@)">
+ <summary>
+ Count ChiTietPhieuHoaDon
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETPHIEUNHAPDAO.InsertChiTietPhieuNhap(DTO.CHITIETPHIEUNHAPDTO,System.String@)">
+ <summary>
+ Insert new ChiTietPhieuNhap into database
+ </summary>
+ <param name="chiTietPhieuNhap"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETPHIEUNHAPDAO.GetNewChiTietPhieuNhapID(System.String@)">
+ <summary>
+ Get new ChiTietPhieuNhap ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETPHIEUNHAPDAO.RemoveChiTietPhieuNhaps(System.String,System.String@)">
+ <summary>
+ Remove ChiTietPhieuNhaps by MaSach 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETPHIEUNHAPDAO.CountChiTietPhieuNhaps(System.String@)">
+ <summary>
+ Count ChiTietPhieuNhap
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETTONDAO.FindChiTietTon(System.String,System.String,System.String@)">
+ <summary>
+ Find chitietton by MaBaoCaoTon and maSach
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETTONDAO.SearchAllUnRemovedChiTietTons(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find ChiTietTons by thang and nam
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETTONDAO.InsertChiTietTon(System.String,System.String,System.String@)">
+ <summary>
+ Insert a new ChiTietTon
+ </summary>
+ <param name="maSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETTONDAO.UpdateChiTietTon(System.Int32,System.Int32,System.String,System.Int32,System.String@)">
+ <summary>
+ Update BaoCaoTon when do LapPhieuNhapSach or LapHoaDonBanSach
+ </summary>
+ <param name="maSach"></param>
+ <param name="soLuong"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETTONDAO.UpdateAllChiTietTonsByNewMonth(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Update All BaoCaoTon if this month is a new month
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETTONDAO.RemoveBaoCaoTons(System.String,System.String@)">
+ <summary>
+ Remove BaoCaoTons by book ID
+ </summary>
+ <param name="maSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.CHITIETTONDAO.GetNewChiTietTonID(System.String@)">
+ <summary>
+ get new ChiTietTon ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.InsertCustomer(DTO.KHACHHANGDTO,System.String@)">
+ <summary>
+ Insert a new customer
+ Used procedure
+ </summary>
+ <param name="khachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.RemoveCustomer(System.String,System.String@)">
+ <summary>
+ Delete a Customer
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.UpdateCustomer(DTO.KHACHHANGDTO,System.String@)">
+ <summary>
+ Update a customer by ID
+ Used procedure
+ </summary>
+ <param name="khachHang"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.UpdateCustomerDebt(System.String,System.Decimal,System.String@)">
+ <summary>
+ Update customer debt after payment or before payment
+ Used procedure
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="soTien"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.RetriveRemovedCustomer(System.String,System.String@)">
+ <summary>
+ retrieve removed customer
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindCustomerByID(System.String,System.Boolean,System.String@)">
+ <summary>
+ Find a customer by the exact ID
+ Used procedure
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.SearchCustomers(System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Boolean,System.String@)">
+ <summary>
+ Search customers
+ Used procedure
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.GetAllCustomerIDs(System.String@)">
+ <summary>
+Get all customer unremoved ids
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.GetNewCustomerID(System.String@)">
+ <summary>
+ get new customer ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindCustomers(System.String@)">
+ <summary>
+ this function is used like a pattern for all the other find customers function
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.DoCustomerTask(System.String@)">
+ <summary>
+ a pattern function for some task 
+ </summary>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindCustomersByID(System.String,System.String@)">
+ <summary>
+ Find Customers has the little similar ID 
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindCustomersByName(System.String,System.String@)">
+ <summary>
+ Find Customers by Name
+ </summary>
+ <param name="tenKhachHang"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindCustomersByAddress(System.String,System.String@)">
+ <summary>
+ Find Customers by address
+ </summary>
+ <param name="diaChi"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindCustomersByPhone(System.String,System.String@)">
+ <summary>
+ Find Customers by phonenumber
+ </summary>
+ <param name="dienThoai"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindCustomersByEmail(System.String,System.String@)">
+ <summary>
+ Find Customers by email
+ </summary>
+ <param name="email"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindCustomersbyDebt(System.Decimal,System.String,System.String@)">
+ <summary>
+ Find customers by debt
+ </summary>
+ <param name="soTienNo"></param>
+ <param name="compareType"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.CountCustomers(System.String@)">
+ <summary>
+ Count books
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.KHACHHANGDAO.FindRemovedCustomers(System.String@)">
+ <summary>
+ Find removed customers
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.MYSQLCONNECTIONDAO.ConnectToDatabase(System.String,System.String,System.String,System.String,System.String@)">
+ <summary>
+ Connect to the database
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:DAO.MYSQLCONNECTIONDAO.DisConnectFromDatabase(System.String@)">
+ <summary>
+ DisConnect From Database
+ </summary>
+</member>
+<member name="M:DAO.MYSQLCONNECTIONDAO.ExcuteQuery(System.String,System.String@)">
+ <summary>
+ Excute Query
+ </summary>
+ <param name="query"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.MYSQLCONNECTIONDAO.GetDataTableByQuery(System.String,System.String@)">
+ <summary>
+ Get DataTable
+ </summary>
+ <param name="query"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.MYSQLCONNECTIONDAO.ExcuteProcedure(System.String,System.String@,MySql.Data.MySqlClient.MySqlParameter[])">
+ <summary>
+ Excute Procedure
+ </summary>
+ <param name="procedureName"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.MYSQLCONNECTIONDAO.GetDataTableByProcedure(System.String,System.String@,MySql.Data.MySqlClient.MySqlParameter[])">
+ <summary>
+ Get DataTable
+ </summary>
+ <param name="procedureName"></param>
+ <returns></returns>
+</member>
+<member name="T:DAO.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DAO.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DAO.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DAO.PHIEUHOADONDAO.InsertPhieuHoaDon(DTO.PHIEUHOADONDTO,System.String@)">
+ <summary>
+ Insert new PhieuHoaDon into database
+ </summary>
+ <param name="phieuHoaDon"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUHOADONDAO.RemovePhieuHoaDons(System.String,System.String@)">
+ <summary>
+ Remove PhieuHoaDons by customer ID
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUHOADONDAO.GetNewPhieuHoaDonID(System.String@)">
+ <summary>
+ Get new PhieuHoaDon ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUHOADONDAO.CountPhieuHoaDons(System.String@)">
+ <summary>
+ Count PhieuHoaDon
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUNHAPDAO.InsertPhieuNhap(DTO.PHIEUNHAPDTO,System.String@)">
+ <summary>
+ Insert new PhieuNhap into database
+ </summary>
+ <param name="phieuNhap"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUNHAPDAO.GetNewPhieuNhapID(System.String@)">
+ <summary>
+ Get new PhieuNhap ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUNHAPDAO.CountPhieuNhaps(System.String@)">
+ <summary>
+ Count PhieuNhap
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUTHUTIENDAO.InsertPhieuThuTien(DTO.PHIEUTHUTIENDTO,System.String@)">
+ <summary>
+ Insert new PhieuThuTien into database
+ </summary>
+ <param name="phieuThuTien"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUTHUTIENDAO.GetNewPhieuThuTienID(System.String@)">
+ <summary>
+ Get new PhieuThuTien ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUTHUTIENDAO.RemovePhieuThuTiens(System.String,System.String@)">
+ <summary>
+ Remove PhieuThuTiens by customer ID
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.PHIEUTHUTIENDAO.CountPhieuThuTiens(System.String@)">
+ <summary>
+ Count PhieuThuTien
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.FindBookByID(System.String,System.Boolean,System.String@)">
+ <summary>
+ Find a book by its ID
+ Used procedure
+ </summary>
+ <param name="maSach"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.SearchBooks(System.String,System.String,System.String,System.String,System.Decimal,System.String,System.Int32,System.String,System.Boolean,System.String@)">
+ <summary>
+ search books
+ Used procedure
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.GetAllBookIDs(System.String@)">
+ <summary>
+Get all unremoved book ids
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.InsertBook(DTO.SACHDTO,System.String@)">
+ <summary>
+ Insert a book into database
+ Used procedure
+ </summary>
+ <param name="book"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.RemoveBook(System.String,System.String@)">
+ <summary>
+ remove a book by changing its TrangThai
+ </summary>
+ <param name="maSach"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.UpdateBook(DTO.SACHDTO,System.String@)">
+ <summary>
+ Update a book by its ID
+ Used procedure
+ </summary>
+ <param name="book"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.UpdateInventory(System.String,System.Int32,System.String@)">
+ <summary>
+ Update soLuongTon after selling or importing
+ used procedure
+ </summary>
+ <param name="maSach"></param>
+ <param name="soLuong"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.RetriveRemovedBook(System.String,System.String@)">
+ <summary>
+ retrieve removed books
+ used procedure
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.GetNewBookID(System.String@)">
+ <summary>
+ get new book ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.FindBooksByID(System.String,System.String@)">
+ <summary>
+ Find books has the little similar in the ID
+ </summary>
+ <param name="maSach"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.FindBooksByName(System.String,System.String@)">
+ <summary>
+ Find books by its name
+ </summary>
+ <param name="tenSach"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.FindBooksbyAuthorName(System.String,System.String@)">
+ <summary>
+ Find books by its Author Name
+ </summary>
+ <param name="tacGia"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.FindBooksbyType(System.String,System.String@)">
+ <summary>
+ Find books by Type
+ </summary>
+ <param name="theLoai"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.FindBooksbyPrice(System.Decimal,System.String,System.String@)">
+ <summary>
+ Find books by price
+ </summary>
+ <param name="donGia"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.FindBooksbyInventory(System.Int32,System.String,System.String@)">
+ <summary>
+ Find books by soLuongTon
+ </summary>
+ <param name="soLuongTon"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.FindBooks(System.String@)">
+ <summary>
+ this function is used like a pattern for all the other find books function
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.CountBooks(System.String@)">
+ <summary>
+ Count books
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.SACHDAO.DoBookTask(System.String@)">
+ <summary>
+ a pattern function for some task 
+ </summary>
+</member>
+<member name="M:DAO.SACHDAO.FindRemovedBooks(System.String@)">
+ <summary>
+ Find removed books
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.THAMSODAO.UpdateThamSo(System.String@)">
+ <summary>
+ Update ThamSo 
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.THAMSODAO.GetThamSo(System.String@)">
+ <summary>
+ Set ThamSo to ThamSoDTO (get the new ThamSo for ThamSoDTO)
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.THELOAIDAO.InsertTheLoai(DTO.THELOAIDTO,System.String@)">
+ <summary>
+ Insert new TheLoai into database
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.THELOAIDAO.FindAllTheLoais(System.String@)">
+ <summary>
+ Find all TheLoais into database
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.THELOAIDAO.GetNewPhieuNhapID(System.String@)">
+ <summary>
+ Get new PhieuNhap ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:DAO.THELOAIDAO.RemoveTheLoai(System.String,System.String@)">
+ <summary>
+ Insert new PhieuNhap into database
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

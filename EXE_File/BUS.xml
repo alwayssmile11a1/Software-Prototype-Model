@@ -1,0 +1,586 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BUS
+</name>
+</assembly>
+<members>
+<member name="M:BUS.BAOCAOCONGNOBUS.FindBaoCaoCongNo(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find baocaocongno by thang and nam and maSach
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.BAOCAOCONGNOBUS.InsertBaoCaoCongNo(DTO.BAOCAOCONGNODTO,System.String@)">
+ <summary>
+ Insert a new BaoCaoCongNo when a new customer is inserted
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.BAOCAOCONGNOBUS.GetNewBaoCaoCongNoID(System.String@)">
+ <summary>
+ get new BaoCaoCongNo ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.BAOCAOTONBUS.FindBaoCaoTon(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find baocaoton by thang and nam and maSach
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.BAOCAOTONBUS.InsertBaoCaoTon(DTO.BAOCAOTONDTO,System.String@)">
+ <summary>
+ Insert a new BaoCaoTon when a new book is inserted
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.BAOCAOTONBUS.GetNewBaoCaoTonID(System.String@)">
+ <summary>
+ get new BaoCaoTon ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETCONGNOBUS.FindChiTietCongNo(System.String,System.String,System.String@)">
+ <summary>
+ Find chitietcongno by Mabaocaocongno and makhachhang
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETCONGNOBUS.SearchAllUnRemovedChiTietCongNos(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find ChiTietCongNos by thang and nam
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETCONGNOBUS.InsertChiTietCongNo(System.String,System.String,System.String@)">
+ <summary>
+ Insert a new ChiTietCongNo
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETCONGNOBUS.UpdateChiTietCongNo(System.Int32,System.Int32,System.String,System.Decimal,System.String@)">
+ <summary>
+ Update BaoCaoCongNo
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETCONGNOBUS.GetNewChiTietCongNoID(System.String@)">
+ <summary>
+ get new ChiTietCongNo ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETPHIEUHOADONBUS.InsertChiTietPhieuHoaDon(DTO.CHITIETPHIEUHOADONDTO,System.String@)">
+ <summary>
+ Insert new ChiTietPhieuHoaDon into database
+ </summary>
+ <param name="chiTietPhieuHoaDon"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETPHIEUHOADONBUS.RemoveChiTietPhieuHDsByBookID(System.String,System.String@)">
+ <summary>
+ Remove ChiTietPhieuHoaDons by book ID
+ </summary>
+ <param name="maSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETPHIEUHOADONBUS.GetNewChiTietPhieuHoaDonID(System.String@)">
+ <summary>
+ Get new ChiTietPhieuHoaDon ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETPHIEUHOADONBUS.CountChiTietPhieuHoaDons(System.String@)">
+ <summary>
+ Count ChiTietPhieuHoaDon
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETPHIEUNHAPBUS.InsertChiTietPhieuNhap(DTO.CHITIETPHIEUNHAPDTO,System.String@)">
+ <summary>
+ Insert new ChiTietPhieuNhap into database
+ </summary>
+ <param name="chiTietPhieuNhap"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETPHIEUNHAPBUS.GetNewChiTietPhieuNhapID(System.String@)">
+ <summary>
+ Get new ChiTietPhieuNhap ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETPHIEUNHAPBUS.RemoveChiTietPhieuNhaps(System.String,System.String@)">
+ <summary>
+ Remove ChiTietPhieuNhaps by MaSach 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETPHIEUNHAPBUS.CountChiTietPhieuNhap(System.String@)">
+ <summary>
+ Count ChiTietPhieuNhap
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETTONBUS.FindChiTietTon(System.String,System.String,System.String@)">
+ <summary>
+ Find chitietton by MaBaoCaoTon and maSach
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETTONBUS.SearchAllUnRemovedChiTietTons(System.Int32,System.Int32,System.String@)">
+ <summary>
+ Find ChiTietTons by thang and nam
+ </summary>
+ <param name="thang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETTONBUS.InsertChiTietTon(System.String,System.String,System.String@)">
+ <summary>
+ Insert a new ChiTietTon
+ </summary>
+ <param name="maSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETTONBUS.UpdateChiTietTon(System.Int32,System.Int32,System.String,System.Int32,System.String@)">
+ <summary>
+ Update BaoCaoTon when do LapPhieuNhapSach or LapHoaDonBanSach
+ </summary>
+ <param name="maSach"></param>
+ <param name="soLuong"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.CHITIETTONBUS.GetNewChiTietTonID(System.String@)">
+ <summary>
+ get new ChiTietTon ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.FindCustomerByID(System.String,System.Boolean,System.String@)">
+ <summary>
+ Find a customer by ID
+ used procedure
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.SearchCustomers(System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.Boolean,System.String@)">
+ <summary>
+ Search customers
+ used procedure
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.GetAllCustomerIDs(System.String@)">
+ <summary>
+Get all customer unremoved ids
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.GetNewCustomerID(System.String@)">
+ <summary>
+ get new customer ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.InsertCustomer(DTO.KHACHHANGDTO,System.String@)">
+ <summary>
+ Insert new customer into Database
+ used procedure
+ </summary>
+ <param name="khachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.RemoveCustomer(System.String,System.String@)">
+ <summary>
+ Remove a customer by ID
+ used procedure
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.UpdateCustomer(DTO.KHACHHANGDTO,System.String@)">
+ <summary>
+ Update a customer by ID
+ used procedure
+ </summary>
+ <param name="khachHang"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.UpdateCustomerDebt(System.String,System.Decimal,System.String@)">
+ <summary>
+ Update customer's debt
+ used procedure
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="soTien"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.RetriveRemovedCustomer(System.String,System.String@)">
+ <summary>
+ retrieve removed customer
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.IsRightFormat(DTO.KHACHHANGDTO,System.String@)">
+ <summary>
+ Check Format
+ </summary>
+ <param name="khachHang"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.FindCustomersByPhone(System.String,System.String@)">
+ <summary>
+ Find Customers by Phonenumber
+ </summary>
+ <param name="dienThoai"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.FindCustomersByEmail(System.String,System.String@)">
+ <summary>
+ Find Customers by email
+ </summary>
+ <param name="email"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.FindCustomersbyDebt(System.Decimal,System.String,System.String@)">
+ <summary>
+ Find Customers by debt
+ </summary>
+ <param name="soTienNo"></param>
+ <param name="compareType"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.CountCustomers(System.String@)">
+ <summary>
+ Count books
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.KHACHHANGBUS.FindRemovedCustomers(System.String@)">
+ <summary>
+ Find removed customers
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="T:BUS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BUS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BUS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:BUS.PHIEUHOADONBUS.InsertPhieuHoaDon(DTO.PHIEUHOADONDTO,System.String@)">
+ <summary>
+ Insert new PhieuHoaDon into database
+ </summary>
+ <param name="phieuHoaDon"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUHOADONBUS.GetNewPhieuHoaDonID(System.String@)">
+ <summary>
+ Get new PhieuHoaDon ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUHOADONBUS.RemovePhieuHoaDons(System.String,System.String@)">
+ <summary>
+ Remove PhieuHoaDons by customer ID
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUHOADONBUS.CountPhieuHoaDons(System.String@)">
+ <summary>
+ Count PhieuHoaDon
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUNHAPBUS.InsertPhieuNhap(DTO.PHIEUNHAPDTO,System.String@)">
+ <summary>
+ Insert new PhieuNhap into database
+ </summary>
+ <param name="phieuNhap"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUNHAPBUS.GetNewPhieuNhapID(System.String@)">
+ <summary>
+ Get new PhieuNhap ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUNHAPBUS.CountPhieuNhap(System.String@)">
+ <summary>
+ Count PhieuNhap
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUTHUTIENBUS.InsertPhieuThuTien(DTO.PHIEUTHUTIENDTO,System.String@)">
+ <summary>
+ Insert new PhieuThuTien into database
+ </summary>
+ <param name="phieuThuTien"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUTHUTIENBUS.RemovePhieuThuTiens(System.String,System.String@)">
+ <summary>
+ Remove PhieuThuTiens by customer ID
+ </summary>
+ <param name="maKhachHang"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUTHUTIENBUS.GetNewPhieuThuTienID(System.String@)">
+ <summary>
+ Get new PhieuThuTien ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.PHIEUTHUTIENBUS.CountPhieuThuTiens(System.String@)">
+ <summary>
+ Count PhieuThuTien
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.FindBookByID(System.String,System.Boolean,System.String@)">
+ <summary>
+ Find a book by its ID
+ Used procedure
+ </summary>
+ <param name="maSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.SearchBooks(System.String,System.String,System.String,System.String,System.Decimal,System.String,System.Int32,System.String,System.Boolean,System.String@)">
+ <summary>
+ Search books
+ Used procedure
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.GetAllBookIDs(System.String@)">
+ <summary>
+Get all unremoved book ids
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.RemoveBook(System.String,System.String@)">
+ <summary>
+ Remove a book by its ID
+ don't need to check if maSach has the right format because if maSach has the wrong format, it doesn't have in the database initially anyway  
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.InsertBook(DTO.SACHDTO,System.String@)">
+ <summary>
+ Insert a book into database
+ should check the format of all information of the book before insert into database
+ Used procedure
+ </summary>
+ <param name="book"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.UpdateBook(DTO.SACHDTO,System.String@)">
+ <summary>
+ Update a Book by its ID
+Used procedure
+ </summary>
+ <param name="book"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.UpdateInventory(System.String,System.Int32,System.String@)">
+ <summary>
+ Update SoLuongTon by bookID
+  Used procedure
+ </summary>
+ <param name="maSach"></param>
+ <param name="soLuong"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.RetriveRemovedBook(System.String,System.String@)">
+ <summary>
+ retrieve removed books
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.GetNewBookID(System.String@)">
+ <summary>
+ get new book ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.IsRightFormat(DTO.SACHDTO,System.String@)">
+ <summary>
+ Check format of all information in the book. True means right format 
+ </summary>
+ <param name="book"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.FindBooksByID(System.String,System.String@)">
+ <summary>
+ Find  books by its ID
+ </summary>
+ <param name="maSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.FindBooksByName(System.String,System.String@)">
+ <summary>
+ Find Books by its Name
+ </summary>
+ <param name="tenSach"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.FindBooksByAuthorName(System.String,System.String@)">
+ <summary>
+ Find Books by its Author Name
+ </summary>
+ <param name="tacGia"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.FindBooksbyType(System.String,System.String@)">
+ <summary>
+ Find books by Type
+ </summary>
+ <param name="theLoai"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.FindBooksbyInventory(System.Int32,System.String,System.String@)">
+ <summary>
+ Find books by inventory
+ </summary>
+ <param name="soLuongTon"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.FindBooksbyPrice(System.Decimal,System.String,System.String@)">
+ <summary>
+ Find books by price
+ </summary>
+ <param name="donGia"></param>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.CountBooks(System.String@)">
+ <summary>
+ Count books
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.SACHBUS.FindRemovedBooks(System.String@)">
+ <summary>
+ Find removed books
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.THAMSOBUS.UpdateThamSo(System.String@)">
+ <summary>
+ Update ThamSo in database
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.THAMSOBUS.GetThamSo(System.String@)">
+ <summary>
+ Set ThamSo to ThamSoDTO (get the new ThamSo for ThamSoDTO)
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.THELOAIBUS.InsertTheLoai(DTO.THELOAIDTO,System.String@)">
+ <summary>
+ Insert new TheLoai into database
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.THELOAIBUS.GetNewPhieuNhapID(System.String@)">
+ <summary>
+ Get new TheLoai ID
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.THELOAIBUS.RemoveTheLoai(System.String,System.String@)">
+ <summary>
+ Remove TheLoai 
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+<member name="M:BUS.THELOAIBUS.FindAllTheLoais(System.String@)">
+ <summary>
+ Find all TheLoais into database
+ </summary>
+ <param name="exception"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>
