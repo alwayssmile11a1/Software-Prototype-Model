@@ -94,6 +94,9 @@ Partial Class REMOVEDSACHGUI
         '
         Me.DonGiaKieuSoSanhComboBox.Location = New System.Drawing.Point(387, 72)
         Me.DonGiaKieuSoSanhComboBox.Name = "DonGiaKieuSoSanhComboBox"
+        '
+        '
+        '
         Me.DonGiaKieuSoSanhComboBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DonGiaKieuSoSanhComboBox.Properties.Appearance.Options.UseFont = True
         Me.DonGiaKieuSoSanhComboBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -105,6 +108,9 @@ Partial Class REMOVEDSACHGUI
         '
         Me.DonGiaTraCuuTextBox.Location = New System.Drawing.Point(537, 72)
         Me.DonGiaTraCuuTextBox.Name = "DonGiaTraCuuTextBox"
+        '
+        '
+        '
         Me.DonGiaTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DonGiaTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.DonGiaTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -130,6 +136,9 @@ Partial Class REMOVEDSACHGUI
         '
         Me.SoLuongTonTraCuuTextBox.Location = New System.Drawing.Point(537, 41)
         Me.SoLuongTonTraCuuTextBox.Name = "SoLuongTonTraCuuTextBox"
+        '
+        '
+        '
         Me.SoLuongTonTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoLuongTonTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoLuongTonTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -155,6 +164,9 @@ Partial Class REMOVEDSACHGUI
         '
         Me.TacGiaTraCuuTextBox.Location = New System.Drawing.Point(115, 142)
         Me.TacGiaTraCuuTextBox.Name = "TacGiaTraCuuTextBox"
+        '
+        '
+        '
         Me.TacGiaTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TacGiaTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.TacGiaTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -177,6 +189,9 @@ Partial Class REMOVEDSACHGUI
         '
         Me.TheLoaiTraCuuTextBox.Location = New System.Drawing.Point(115, 106)
         Me.TheLoaiTraCuuTextBox.Name = "TheLoaiTraCuuTextBox"
+        '
+        '
+        '
         Me.TheLoaiTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TheLoaiTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.TheLoaiTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -199,6 +214,9 @@ Partial Class REMOVEDSACHGUI
         '
         Me.TenSachTraCuuTextBox.Location = New System.Drawing.Point(115, 72)
         Me.TenSachTraCuuTextBox.Name = "TenSachTraCuuTextBox"
+        '
+        '
+        '
         Me.TenSachTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TenSachTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.TenSachTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -221,6 +239,9 @@ Partial Class REMOVEDSACHGUI
         '
         Me.MaSachTraCuuTextBox.Location = New System.Drawing.Point(115, 41)
         Me.MaSachTraCuuTextBox.Name = "MaSachTraCuuTextBox"
+        '
+        '
+        '
         Me.MaSachTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MaSachTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.MaSachTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -243,6 +264,9 @@ Partial Class REMOVEDSACHGUI
         '
         Me.SoLuongTonKieuSoSanhComboBox.Location = New System.Drawing.Point(387, 41)
         Me.SoLuongTonKieuSoSanhComboBox.Name = "SoLuongTonKieuSoSanhComboBox"
+        '
+        '
+        '
         Me.SoLuongTonKieuSoSanhComboBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoLuongTonKieuSoSanhComboBox.Properties.Appearance.Options.UseFont = True
         Me.SoLuongTonKieuSoSanhComboBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -340,25 +364,25 @@ Partial Class REMOVEDSACHGUI
 
     End Sub
 
-    Friend WithEvents KhoiPhucSachButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents ThongTinSachGridControl As DevExpress.XtraGrid.GridControl
-    Friend WithEvents ThongTinSachGridView As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents DonGiaKieuSoSanhComboBox As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents DonGiaTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl15 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SoLuongTonTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TacGiaTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl13 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TheLoaiTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TenSachTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents MaSachTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SoLuongTonKieuSoSanhComboBox As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents TongSoKetQuaLabelControl As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TimTatCaButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents KhoiPhucSachButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents ThongTinSachGridControl As DevExpress.XtraGrid.GridControl
+    Private WithEvents ThongTinSachGridView As DevExpress.XtraGrid.Views.Grid.GridView
+    Private WithEvents DonGiaKieuSoSanhComboBox As DevExpress.XtraEditors.ComboBoxEdit
+    Private WithEvents DonGiaTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl15 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents SoLuongTonTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TacGiaTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl13 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TheLoaiTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TenSachTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents MaSachTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents SoLuongTonKieuSoSanhComboBox As DevExpress.XtraEditors.ComboBoxEdit
+    Private WithEvents TongSoKetQuaLabelControl As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TimTatCaButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
 End Class

@@ -93,6 +93,9 @@ Partial Class LAPPHIEUNHAPSACHGUI
         '
         Me.SoLuongNhapItNhatTextBox.Location = New System.Drawing.Point(241, 68)
         Me.SoLuongNhapItNhatTextBox.Name = "SoLuongNhapItNhatTextBox"
+        '
+        '
+        '
         Me.SoLuongNhapItNhatTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoLuongNhapItNhatTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoLuongNhapItNhatTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -103,6 +106,9 @@ Partial Class LAPPHIEUNHAPSACHGUI
         '
         Me.SoLuongTonToiDaTextBox.Location = New System.Drawing.Point(241, 99)
         Me.SoLuongTonToiDaTextBox.Name = "SoLuongTonToiDaTextBox"
+        '
+        '
+        '
         Me.SoLuongTonToiDaTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoLuongTonToiDaTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoLuongTonToiDaTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -194,6 +200,9 @@ Partial Class LAPPHIEUNHAPSACHGUI
         Me.progressBarControl.EditValue = "0"
         Me.progressBarControl.Location = New System.Drawing.Point(0, 624)
         Me.progressBarControl.Name = "progressBarControl"
+        '
+        '
+        '
         Me.progressBarControl.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.progressBarControl.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(53, Byte), Integer))
         Me.progressBarControl.Properties.ShowTitle = True
@@ -251,7 +260,6 @@ Partial Class LAPPHIEUNHAPSACHGUI
         Me.AllBookIDsListBox.Cursor = System.Windows.Forms.Cursors.Default
         Me.AllBookIDsListBox.Location = New System.Drawing.Point(26, 202)
         Me.AllBookIDsListBox.Name = "AllBookIDsListBox"
-        Me.AllBookIDsListBox.Size = New System.Drawing.Size(120, 95)
         Me.AllBookIDsListBox.TabIndex = 86
         Me.AllBookIDsListBox.Visible = False
         '
@@ -318,27 +326,27 @@ Partial Class LAPPHIEUNHAPSACHGUI
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SoLuongNhapItNhatTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents SoLuongTonToiDaTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LapPhieuNhapSachButton As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents NgayNhapDateTimePicker As DateTimePicker
-    Friend WithEvents TaoPhieuMoiButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents LapPhieuNhapSachGridControl As DevExpress.XtraGrid.GridControl
-    Friend WithEvents LapPhieuNhapSachGridView As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents ToolTipController As DevExpress.Utils.ToolTipController
-    Friend WithEvents RepositoryItemButtonEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
-    Friend WithEvents XuatFileExcelButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents progressBarControl As DevExpress.XtraEditors.ProgressBarControl
     Friend WithEvents ExportBackgroundWorker As System.ComponentModel.BackgroundWorker
     Friend WithEvents SaveDialog As SaveFileDialog
-    Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents NhapFileExcelButton As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents OpenDialog As OpenFileDialog
-    Friend WithEvents LayFileExcelFormatButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents AllBookIDsListBox As DevExpress.XtraEditors.ListBoxControl
     Friend WithEvents LichSuThaoTacFlowLayoutPanel As FlowLayoutPanel
-    Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents SoLuongNhapItNhatTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents SoLuongTonToiDaTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LapPhieuNhapSachButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents TaoPhieuMoiButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents LapPhieuNhapSachGridControl As DevExpress.XtraGrid.GridControl
+    Private WithEvents LapPhieuNhapSachGridView As DevExpress.XtraGrid.Views.Grid.GridView
+    Private WithEvents ToolTipController As DevExpress.Utils.ToolTipController
+    Private WithEvents RepositoryItemButtonEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+    Private WithEvents XuatFileExcelButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents progressBarControl As DevExpress.XtraEditors.ProgressBarControl
+    Private WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents NhapFileExcelButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents LayFileExcelFormatButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents AllBookIDsListBox As DevExpress.XtraEditors.ListBoxControl
+    Private WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
 End Class

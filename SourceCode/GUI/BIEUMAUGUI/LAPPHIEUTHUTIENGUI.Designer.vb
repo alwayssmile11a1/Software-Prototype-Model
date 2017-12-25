@@ -62,6 +62,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.SoTienNoTextBox.Location = New System.Drawing.Point(235, 318)
         Me.SoTienNoTextBox.Name = "SoTienNoTextBox"
+        '
+        '
+        '
         Me.SoTienNoTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoTienNoTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoTienNoTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -98,6 +101,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.HotenTextBox.Location = New System.Drawing.Point(235, 151)
         Me.HotenTextBox.Name = "HotenTextBox"
+        '
+        '
+        '
         Me.HotenTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HotenTextBox.Properties.Appearance.Options.UseFont = True
         Me.HotenTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -108,6 +114,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.EmailTextBox.Location = New System.Drawing.Point(235, 231)
         Me.EmailTextBox.Name = "EmailTextBox"
+        '
+        '
+        '
         Me.EmailTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EmailTextBox.Properties.Appearance.Options.UseFont = True
         Me.EmailTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -118,6 +127,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.DienThoaiTextBox.Location = New System.Drawing.Point(235, 271)
         Me.DienThoaiTextBox.Name = "DienThoaiTextBox"
+        '
+        '
+        '
         Me.DienThoaiTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DienThoaiTextBox.Properties.Appearance.Options.UseFont = True
         Me.DienThoaiTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -128,6 +140,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.DiaChiTextBox.Location = New System.Drawing.Point(235, 191)
         Me.DiaChiTextBox.Name = "DiaChiTextBox"
+        '
+        '
+        '
         Me.DiaChiTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DiaChiTextBox.Properties.Appearance.Options.UseFont = True
         Me.DiaChiTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -138,6 +153,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.MaKhachHangTextBox.Location = New System.Drawing.Point(235, 111)
         Me.MaKhachHangTextBox.Name = "MaKhachHangTextBox"
+        '
+        '
+        '
         Me.MaKhachHangTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MaKhachHangTextBox.Properties.Appearance.Options.UseFont = True
         Me.MaKhachHangTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -202,6 +220,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.SoTienThuTextBox.Location = New System.Drawing.Point(769, 411)
         Me.SoTienThuTextBox.Name = "SoTienThuTextBox"
+        '
+        '
+        '
         Me.SoTienThuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoTienThuTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoTienThuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -257,6 +278,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.TienTraKhachTextBox.Location = New System.Drawing.Point(421, 411)
         Me.TienTraKhachTextBox.Name = "TienTraKhachTextBox"
+        '
+        '
+        '
         Me.TienTraKhachTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TienTraKhachTextBox.Properties.Appearance.Options.UseFont = True
         Me.TienTraKhachTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -318,6 +342,9 @@ Partial Class LAPPHIEUTHUTIENGUI
         '
         Me.TienKhachTraTextBox.Location = New System.Drawing.Point(91, 411)
         Me.TienKhachTraTextBox.Name = "TienKhachTraTextBox"
+        '
+        '
+        '
         Me.TienKhachTraTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TienKhachTraTextBox.Properties.Appearance.Options.UseFont = True
         Me.TienKhachTraTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -386,31 +413,30 @@ Partial Class LAPPHIEUTHUTIENGUI
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents SoTienNoTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LapPhieuThuButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents HotenTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents EmailTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents DienThoaiTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents DiaChiTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents MaKhachHangTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SoTienThuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents NgayThuTienDateTimePicker As DateTimePicker
-    Friend WithEvents ThongBaoLabel As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TienTraKhachTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LichSuThaoTacFlowLayoutPanel As FlowLayoutPanel
-    Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents AllCustomerIDsListBox As DevExpress.XtraEditors.ListBoxControl
-    Friend WithEvents TienKhachTraTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents SoTienNoTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LapPhieuThuButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents HotenTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents EmailTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents DienThoaiTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents DiaChiTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents SoTienThuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents ThongBaoLabel As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TienTraKhachTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TienKhachTraTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents MaKhachHangTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents AllCustomerIDsListBox As DevExpress.XtraEditors.ListBoxControl
 End Class

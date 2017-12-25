@@ -6,6 +6,15 @@ Public Class LAPPHIEUTHUTIENGUI
 
     Private listCustomerIDs As List(Of String)
 
+
+    Public Function GetMaKhachHangTextBox() As DevExpress.XtraEditors.TextEdit
+        Return MaKhachHangTextBox
+    End Function
+
+    Public Function GetAllCustomerIDsListBox() As DevExpress.XtraEditors.ListBoxControl
+        Return AllCustomerIDsListBox
+    End Function
+
     Private Sub LAPPHIEUTHUTIENGUI_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'Set up TextBox
         HotenTextBox.ReadOnly = True

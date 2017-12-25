@@ -66,6 +66,9 @@ Partial Class DATABASEGUI
         '
         Me.PasswordTextBox.Location = New System.Drawing.Point(354, 200)
         Me.PasswordTextBox.Name = "PasswordTextBox"
+        '
+        '
+        '
         Me.PasswordTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PasswordTextBox.Properties.Appearance.Options.UseFont = True
         Me.PasswordTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -86,6 +89,9 @@ Partial Class DATABASEGUI
         '
         Me.ServerTextBox.Location = New System.Drawing.Point(354, 97)
         Me.ServerTextBox.Name = "ServerTextBox"
+        '
+        '
+        '
         Me.ServerTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ServerTextBox.Properties.Appearance.Options.UseFont = True
         Me.ServerTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -105,6 +111,9 @@ Partial Class DATABASEGUI
         '
         Me.DatabaseNameTextBox.Location = New System.Drawing.Point(354, 255)
         Me.DatabaseNameTextBox.Name = "DatabaseNameTextBox"
+        '
+        '
+        '
         Me.DatabaseNameTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DatabaseNameTextBox.Properties.Appearance.Options.UseFont = True
         Me.DatabaseNameTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -124,6 +133,9 @@ Partial Class DATABASEGUI
         '
         Me.UserTextBox.Location = New System.Drawing.Point(354, 150)
         Me.UserTextBox.Name = "UserTextBox"
+        '
+        '
+        '
         Me.UserTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UserTextBox.Properties.Appearance.Options.UseFont = True
         Me.UserTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -166,14 +178,14 @@ Partial Class DATABASEGUI
 
     End Sub
 
-    Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents KetNoiButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents PasswordTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents ServerTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents DatabaseNameTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents UserTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents KetNoiButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents PasswordTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents ServerTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents DatabaseNameTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents UserTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
 End Class

@@ -109,6 +109,9 @@ Partial Class LAPBAOCAOTONGUI
         Me.progressBarControl.EditValue = "0"
         Me.progressBarControl.Location = New System.Drawing.Point(0, 535)
         Me.progressBarControl.Name = "progressBarControl"
+        '
+        '
+        '
         Me.progressBarControl.Properties.ShowTitle = True
         Me.progressBarControl.Properties.Step = 1
         Me.progressBarControl.Size = New System.Drawing.Size(1026, 21)
@@ -149,15 +152,14 @@ Partial Class LAPBAOCAOTONGUI
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LapBaoCaoTonGridControl As DevExpress.XtraGrid.GridControl
-    Friend WithEvents LapBaoCaoTonGridView As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents ThangLapBaoCaoDateTimePicker As DateTimePicker
-    Friend WithEvents LapBaoCaoButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents XuatFileExelButton As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents BackgroundWorker As System.ComponentModel.BackgroundWorker
     Friend WithEvents SaveDialog As SaveFileDialog
-    Friend WithEvents progressBarControl As DevExpress.XtraEditors.ProgressBarControl
-    Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LapBaoCaoTonGridControl As DevExpress.XtraGrid.GridControl
+    Private WithEvents LapBaoCaoTonGridView As DevExpress.XtraGrid.Views.Grid.GridView
+    Private WithEvents LapBaoCaoButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents XuatFileExelButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents progressBarControl As DevExpress.XtraEditors.ProgressBarControl
+    Private WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
 End Class

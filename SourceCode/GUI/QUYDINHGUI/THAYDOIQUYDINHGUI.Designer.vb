@@ -55,6 +55,9 @@ Partial Class THAYDOIQUYDINHGUI
         '
         Me.SoLuongNhapItNhatTextBox.Location = New System.Drawing.Point(504, 83)
         Me.SoLuongNhapItNhatTextBox.Name = "SoLuongNhapItNhatTextBox"
+        '
+        '
+        '
         Me.SoLuongNhapItNhatTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoLuongNhapItNhatTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoLuongNhapItNhatTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -104,6 +107,9 @@ Partial Class THAYDOIQUYDINHGUI
         '
         Me.SoLuongTonToiDaTruocKhiNhapTextBox.Location = New System.Drawing.Point(504, 149)
         Me.SoLuongTonToiDaTruocKhiNhapTextBox.Name = "SoLuongTonToiDaTruocKhiNhapTextBox"
+        '
+        '
+        '
         Me.SoLuongTonToiDaTruocKhiNhapTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoLuongTonToiDaTruocKhiNhapTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoLuongTonToiDaTruocKhiNhapTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -117,6 +123,9 @@ Partial Class THAYDOIQUYDINHGUI
         '
         Me.TienNoToiDaTextBox.Location = New System.Drawing.Point(504, 217)
         Me.TienNoToiDaTextBox.Name = "TienNoToiDaTextBox"
+        '
+        '
+        '
         Me.TienNoToiDaTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TienNoToiDaTextBox.Properties.Appearance.Options.UseFont = True
         Me.TienNoToiDaTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -130,6 +139,9 @@ Partial Class THAYDOIQUYDINHGUI
         '
         Me.LuongTonToiThieuSauBanTextBox.Location = New System.Drawing.Point(504, 285)
         Me.LuongTonToiThieuSauBanTextBox.Name = "LuongTonToiThieuSauBanTextBox"
+        '
+        '
+        '
         Me.LuongTonToiThieuSauBanTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LuongTonToiThieuSauBanTextBox.Properties.Appearance.Options.UseFont = True
         Me.LuongTonToiThieuSauBanTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -143,6 +155,9 @@ Partial Class THAYDOIQUYDINHGUI
         '
         Me.SuDungQuyDinh4CheckBox.Location = New System.Drawing.Point(504, 366)
         Me.SuDungQuyDinh4CheckBox.Name = "SuDungQuyDinh4CheckBox"
+        '
+        '
+        '
         Me.SuDungQuyDinh4CheckBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SuDungQuyDinh4CheckBox.Properties.Appearance.Options.UseFont = True
         Me.SuDungQuyDinh4CheckBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -217,17 +232,17 @@ Partial Class THAYDOIQUYDINHGUI
 
     End Sub
 
-    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SoLuongNhapItNhatTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SoLuongTonToiDaTruocKhiNhapTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TienNoToiDaTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LuongTonToiThieuSauBanTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents SuDungQuyDinh4CheckBox As DevExpress.XtraEditors.CheckEdit
-    Friend WithEvents ApplyButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents SoLuongNhapItNhatTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents SoLuongTonToiDaTruocKhiNhapTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents TienNoToiDaTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LuongTonToiThieuSauBanTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents SuDungQuyDinh4CheckBox As DevExpress.XtraEditors.CheckEdit
+    Private WithEvents ApplyButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
 End Class

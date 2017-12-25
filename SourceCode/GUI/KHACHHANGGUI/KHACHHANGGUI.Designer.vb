@@ -67,7 +67,6 @@ Partial Class KHACHHANGGUI
         Me.TableLayoutPanel.SuspendLayout()
         Me.LichSuThaoTacFlowLayoutPanel.SuspendLayout()
         CType(Me.TimKhachHangPanelControl, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TimKhachHangPanelControl.SuspendLayout()
         CType(Me.SoTienNoTraCuuTextBox.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmailTraCuuTextBox.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DienThoaiTraCuuTextBox.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -78,7 +77,6 @@ Partial Class KHACHHANGGUI
         CType(Me.ThongTinKhachHangGridControl, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ThongTinKhachHangGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ThongTinKhachHangPanel, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.ThongTinKhachHangPanel.SuspendLayout()
         CType(Me.MaKhachHangTextBox.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SoTienNoTextBox.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmailTextBox.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -208,6 +206,9 @@ Partial Class KHACHHANGGUI
         '
         Me.SoTienNoTraCuuTextBox.Location = New System.Drawing.Point(505, 43)
         Me.SoTienNoTraCuuTextBox.Name = "SoTienNoTraCuuTextBox"
+        '
+        '
+        '
         Me.SoTienNoTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoTienNoTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoTienNoTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -239,6 +240,9 @@ Partial Class KHACHHANGGUI
         '
         Me.EmailTraCuuTextBox.Location = New System.Drawing.Point(119, 164)
         Me.EmailTraCuuTextBox.Name = "EmailTraCuuTextBox"
+        '
+        '
+        '
         Me.EmailTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EmailTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.EmailTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -258,6 +262,9 @@ Partial Class KHACHHANGGUI
         '
         Me.DienThoaiTraCuuTextBox.Location = New System.Drawing.Point(119, 136)
         Me.DienThoaiTraCuuTextBox.Name = "DienThoaiTraCuuTextBox"
+        '
+        '
+        '
         Me.DienThoaiTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DienThoaiTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.DienThoaiTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -278,6 +285,9 @@ Partial Class KHACHHANGGUI
         '
         Me.DiaChiTraCuuTextBox.Location = New System.Drawing.Point(119, 107)
         Me.DiaChiTraCuuTextBox.Name = "DiaChiTraCuuTextBox"
+        '
+        '
+        '
         Me.DiaChiTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DiaChiTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.DiaChiTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -297,6 +307,9 @@ Partial Class KHACHHANGGUI
         '
         Me.HoTenTraCuuTextBox.Location = New System.Drawing.Point(119, 75)
         Me.HoTenTraCuuTextBox.Name = "HoTenTraCuuTextBox"
+        '
+        '
+        '
         Me.HoTenTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HoTenTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.HoTenTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -316,6 +329,9 @@ Partial Class KHACHHANGGUI
         '
         Me.MaKhachHangTraCuuTextBox.Location = New System.Drawing.Point(119, 43)
         Me.MaKhachHangTraCuuTextBox.Name = "MaKhachHangTraCuuTextBox"
+        '
+        '
+        '
         Me.MaKhachHangTraCuuTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MaKhachHangTraCuuTextBox.Properties.Appearance.Options.UseFont = True
         Me.MaKhachHangTraCuuTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -326,6 +342,9 @@ Partial Class KHACHHANGGUI
         '
         Me.KieuSoSanhComboBox.Location = New System.Drawing.Point(393, 43)
         Me.KieuSoSanhComboBox.Name = "KieuSoSanhComboBox"
+        '
+        '
+        '
         Me.KieuSoSanhComboBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.KieuSoSanhComboBox.Properties.Appearance.Options.UseFont = True
         Me.KieuSoSanhComboBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -460,6 +479,9 @@ Partial Class KHACHHANGGUI
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.MaKhachHangTextBox.Location = New System.Drawing.Point(137, 43)
         Me.MaKhachHangTextBox.Name = "MaKhachHangTextBox"
+        '
+        '
+        '
         Me.MaKhachHangTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MaKhachHangTextBox.Properties.Appearance.Options.UseFont = True
         Me.MaKhachHangTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -487,6 +509,9 @@ Partial Class KHACHHANGGUI
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.SoTienNoTextBox.Location = New System.Drawing.Point(137, 226)
         Me.SoTienNoTextBox.Name = "SoTienNoTextBox"
+        '
+        '
+        '
         Me.SoTienNoTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SoTienNoTextBox.Properties.Appearance.Options.UseFont = True
         Me.SoTienNoTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -532,6 +557,9 @@ Partial Class KHACHHANGGUI
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.EmailTextBox.Location = New System.Drawing.Point(137, 189)
         Me.EmailTextBox.Name = "EmailTextBox"
+        '
+        '
+        '
         Me.EmailTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EmailTextBox.Properties.Appearance.Options.UseFont = True
         Me.EmailTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -557,6 +585,9 @@ Partial Class KHACHHANGGUI
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DienThoaiTextBox.Location = New System.Drawing.Point(137, 151)
         Me.DienThoaiTextBox.Name = "DienThoaiTextBox"
+        '
+        '
+        '
         Me.DienThoaiTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DienThoaiTextBox.Properties.Appearance.Options.UseFont = True
         Me.DienThoaiTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -584,6 +615,9 @@ Partial Class KHACHHANGGUI
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DiaChiTextBox.Location = New System.Drawing.Point(137, 114)
         Me.DiaChiTextBox.Name = "DiaChiTextBox"
+        '
+        '
+        '
         Me.DiaChiTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DiaChiTextBox.Properties.Appearance.Options.UseFont = True
         Me.DiaChiTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -609,6 +643,9 @@ Partial Class KHACHHANGGUI
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.HoTenTextBox.Location = New System.Drawing.Point(137, 77)
         Me.HoTenTextBox.Name = "HoTenTextBox"
+        '
+        '
+        '
         Me.HoTenTextBox.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HoTenTextBox.Properties.Appearance.Options.UseFont = True
         Me.HoTenTextBox.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat
@@ -636,6 +673,9 @@ Partial Class KHACHHANGGUI
         Me.progressBarControl.EditValue = "0"
         Me.progressBarControl.Location = New System.Drawing.Point(0, 578)
         Me.progressBarControl.Name = "progressBarControl"
+        '
+        '
+        '
         Me.progressBarControl.Properties.ShowTitle = True
         Me.progressBarControl.Properties.Step = 1
         Me.progressBarControl.Size = New System.Drawing.Size(1151, 31)
@@ -656,8 +696,6 @@ Partial Class KHACHHANGGUI
         Me.LichSuThaoTacFlowLayoutPanel.ResumeLayout(False)
         Me.LichSuThaoTacFlowLayoutPanel.PerformLayout()
         CType(Me.TimKhachHangPanelControl, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TimKhachHangPanelControl.ResumeLayout(False)
-        Me.TimKhachHangPanelControl.PerformLayout()
         CType(Me.SoTienNoTraCuuTextBox.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmailTraCuuTextBox.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DienThoaiTraCuuTextBox.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -668,8 +706,6 @@ Partial Class KHACHHANGGUI
         CType(Me.ThongTinKhachHangGridControl, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ThongTinKhachHangGridView, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ThongTinKhachHangPanel, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ThongTinKhachHangPanel.ResumeLayout(False)
-        Me.ThongTinKhachHangPanel.PerformLayout()
         CType(Me.MaKhachHangTextBox.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.SoTienNoTextBox.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmailTextBox.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -682,48 +718,48 @@ Partial Class KHACHHANGGUI
     End Sub
 
     Friend WithEvents TableLayoutPanel As TableLayoutPanel
-    Friend WithEvents ThongTinKhachHangPanel As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents MaKhachHang As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents CapNhatButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents MaKhachHangTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents SoTienNoTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents EmailTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents DienThoaiTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents DiaChiTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents HoTenTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TimKhachHangPanelControl As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents ThongTinKhachHangGridControl As DevExpress.XtraGrid.GridControl
-    Friend WithEvents ThongTinKhachHangGridView As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents KieuSoSanhComboBox As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents XoaButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents ThemButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents ThucHienButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents EmailTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents DienThoaiTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents DiaChiTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents HoTenTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents MaKhachHangTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents SoTienNoTraCuuTextBox As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents LabelControl13 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TongSoKetQuaLabelControl As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TimTatCaButton As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents LichSuThaoTacFlowLayoutPanel As FlowLayoutPanel
-    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TuDongHoanThanhButton As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents XuatFileExcelButton As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SaveDialog As SaveFileDialog
     Friend WithEvents ExportBackgroundWorker As System.ComponentModel.BackgroundWorker
-    Friend WithEvents progressBarControl As DevExpress.XtraEditors.ProgressBarControl
+    Private WithEvents ThongTinKhachHangPanel As DevExpress.XtraEditors.PanelControl
+    Private WithEvents MaKhachHang As DevExpress.XtraEditors.LabelControl
+    Private WithEvents CapNhatButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents MaKhachHangTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents SoTienNoTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents EmailTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents DienThoaiTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents DiaChiTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents HoTenTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TimKhachHangPanelControl As DevExpress.XtraEditors.PanelControl
+    Private WithEvents ThongTinKhachHangGridControl As DevExpress.XtraGrid.GridControl
+    Private WithEvents ThongTinKhachHangGridView As DevExpress.XtraGrid.Views.Grid.GridView
+    Private WithEvents KieuSoSanhComboBox As DevExpress.XtraEditors.ComboBoxEdit
+    Private WithEvents XoaButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents ThemButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents ThucHienButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents EmailTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents DienThoaiTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents DiaChiTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents HoTenTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents MaKhachHangTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents SoTienNoTraCuuTextBox As DevExpress.XtraEditors.TextEdit
+    Private WithEvents LabelControl13 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TongSoKetQuaLabelControl As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TimTatCaButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
+    Private WithEvents TuDongHoanThanhButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents XuatFileExcelButton As DevExpress.XtraEditors.SimpleButton
+    Private WithEvents progressBarControl As DevExpress.XtraEditors.ProgressBarControl
 End Class

@@ -1324,9 +1324,9 @@ Public Class LAPHOADONBANSACHGUI
         panelControl.BringToFront()
 
         'set the text of MaKhachHangTextBox
-        LAPPHIEUTHUTIENGUI.GUI.MaKhachHangTextBox.Text = MaKhachHangTextBox.Text
+        LAPPHIEUTHUTIENGUI.GUI.GetMaKhachHangTextBox().Text = MaKhachHangTextBox.Text
         'set this just for sure
-        LAPPHIEUTHUTIENGUI.GUI.AllCustomerIDsListBox.Visible = False
+        LAPPHIEUTHUTIENGUI.GUI.GetAllCustomerIDsListBox().Visible = False
 
     End Sub
 
