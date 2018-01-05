@@ -1,10 +1,9 @@
 ------------------------How to use sourcecode?------------------------------
 
-1. Install DevExpress Components for .Net 16.1.2 in the folder EssentialThings (Or you can download it from homepage of DevExpress)
-2. Download and Install MySqlServer: https://dev.mysql.com/downloads/mysql/
-3. Extract "BookManagement" in folder "SourceCode"
-4. Open file .sln by Visual Studio 
-5. You might have to add some references (excel references, DevExpress references, ....)
+1. Download and Install MySqlServer: https://dev.mysql.com/downloads/mysql/
+2. Extract "BookManagement" in folder "SourceCode"
+3. Open file .sln by Visual Studio 
+4. You might have to add some references (excel references, DevExpress references, ....)
 
 
 ------------------------How to connect to database-----------------------------
